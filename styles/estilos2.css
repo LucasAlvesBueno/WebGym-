@@ -1,0 +1,40 @@
+@import '/fontes/The\ Foregen\ Rough\ One.ttf';
+@import '/fontes/Kanit-ExtraBoldItalic.ttf';
+@import "https://fonts.googleapis.com/css2?family=Audiowide&family=Kanit&family=League+Gothic&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Audiowide&family=Kanit&family=League+Gothic&family=Manrope:wght@300&display=swap";
+
+body{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #010A13;
+color: azure;
+
+
+
+}
+
+h1{
+
+font-family: 'Audiowide', sans-serif;
+font-size: 56px;
+margin-left: 6px;
+color: #38f509;
+font-size: 80px;
+    
+
+
+
+}
+
+h2{
+
+font-family: 'Kanit',sans-serif;
+font-size: 40px;
+
+
+
+}
+

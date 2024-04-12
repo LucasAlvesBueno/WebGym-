@@ -1,0 +1,431 @@
+
+
+@import '/fontes/The\ Foregen\ Rough\ One.ttf';
+@import '/fontes/Kanit-ExtraBoldItalic.ttf';
+@import "https://fonts.googleapis.com/css2?family=Audiowide&family=Kanit&family=League+Gothic&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Audiowide&family=Kanit&family=League+Gothic&family=Manrope:wght@300&display=swap";
+body{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #010A13;
+color: azure;
+
+
+
+}
+
+.span1{
+
+font-family: 'Kanit', sans-serif;
+font-size: 55px;
+
+
+
+}
+
+.span2{
+
+font-family: 'Audiowide', sans-serif;
+font-size: 56px;
+margin-left: 6px;
+color: #38f509;
+
+
+
+}
+
+h1{
+
+    margin-top: 30px;
+  
+    
+
+
+
+}
+
+h2{
+
+font-family: 'Kanit',sans-serif;
+font-size: 35px;
+
+}
+
+p{
+
+font-family: 'Kanit',sans-serif;
+font-size: 30px;
+font-weight:bold;
+display: flex;
+justify-content: center;
+
+}
+
+.botoes{
+
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+font-family: 'Kanit',sans-serif;
+font-size: 28px;
+color: #33ff00;
+-webkit-text-stroke: 8% #010A13;
+text-shadow: 2px 1px 0 #000; /* Adiciona uma sombra escura para simular o contorno em navegadores que não suportam text-stroke */
+
+
+}
+
+
+
+.botao1{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+margin: 10px;
+padding: 10px;
+border-radius: 8px;
+width: 280px;
+height: 400px;
+
+
+
+
+
+
+}
+
+.botao2{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+border-radius: 8px;
+width: 280px;
+height: 400px;
+margin: 60px;
+position: relative;
+
+
+
+
+
+
+}
+
+
+.botao3{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+margin: 10px;
+padding: 10px;
+border-radius: 8px;
+width: 280px;
+height: 400px;
+
+
+
+
+
+}
+
+.botao1 img{
+
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 8px;
+transition: transform 0.3s ease, filter 3s ease;
+
+
+}
+
+.botao2 img{
+
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: 30% center;
+margin: auto;
+border-radius: 8px;
+transition: transform 0.3s ease, filter 3s ease;
+
+
+
+
+}
+
+.botao3 img{
+
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: 11% center;
+border-radius: 8px;
+transition: transform 0.3s ease, filter 3s ease;
+
+
+
+}
+
+.botao1 span{
+
+position: absolute;
+left: 510px;
+top: 520px;
+justify-content: center;
+opacity: 0;
+transition: opacity 1s ease;
+pointer-events: none;
+
+
+
+
+}
+
+.botao2 span{
+
+position:relative;
+right: 236px;
+bottom: 90px;
+opacity: 0;
+transition: opacity 1s ease;
+pointer-events: none;
+
+}
+
+.botao3 span{
+
+position: absolute;
+right: 430px;
+top: 515px;
+opacity: 0;
+transition: opacity 1s ease;
+pointer-events: none;
+}
+
+.botao1 img:hover{
+
+transform: scale(1.1);
+filter: blur(2px);
+
+
+
+
+}
+
+.botao2 img:hover{
+
+
+transform: scale(1.1);
+filter: blur(2px);
+
+
+}
+
+.botao3 img:hover{
+
+transform: scale(1.1);
+filter: blur(2px);
+
+
+
+
+}
+
+.botao1:hover span,
+.botao2:hover span,
+.botao3:hover span {
+  opacity: 1; /* Quando houver hover, define a opacidade para 1 para mostrar o texto */
+}
+
+
+.p1{
+
+position: relative;
+font-family: 'Kanit',sans-serif;
+font-size: 22px;
+left: 0px;
+top: 6px;
+color: aliceblue;
+transition: opacity 2s ease;
+}
+
+.p2{
+
+position: absolute;
+font-family: 'Kanit',sans-serif;
+font-size: 22px;
+left: 45px;
+top: 40px;
+color: aliceblue;
+transition: opacity 2s ease;
+
+
+
+
+}
+
+.p2{
+
+position: absolute;
+font-family: 'Kanit',sans-serif;
+font-size: 22px;
+left: 45px;
+top: 40px;
+color: aliceblue;
+transition: opacity 2s ease;
+
+
+
+
+}
+.p3{
+
+
+
+
+position: relative;
+font-family: 'Kanit',sans-serif;
+font-size: 22px;
+right: 30px;
+top: 4px;
+color: aliceblue;
+transition: opacity 2s ease;
+line-height: 40px;
+transition: opacity 2s ease;
+
+
+
+
+
+}
+
+
+.cadastro-form{
+display: none;
+position: fixed;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: aliceblue;
+padding: 50px;
+border: 4px solid #020a00;
+border-radius: 20px;
+box-shadow: 0 0 10px rgba(0, 0green, 0blue, 0.1);
+z-index: 999;
+color: #000;
+
+}
+
+.cadastro-form h3{
+
+text-align: center;
+font-family: 'Kanit',sans-serif;
+font-size: 30px;
+
+
+}
+
+.cadastro-form h4{
+
+
+font-family: 'Kanit',sans-serif;
+font-size: 17px;
+text-align:justify;
+
+
+}
+
+.cadastro-form form{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Kanit',sans-serif;
+
+
+
+}
+
+.cadastro-form label{
+
+margin-bottom: 10px;
+
+
+}
+
+.cadastro-form input{
+
+width: 100%;
+padding:8px;
+margin-bottom: 15px;
+border-radius: 6px;
+
+}
+
+.cadastro-form button{
+
+background-color: #4caf50;
+color: #fff;
+padding: 10px 15px;
+border: none;
+cursor:pointer;
+border-radius: 6px;
+margin-top: 20px;
+transition: transform 0.3s ease, filter 3s ease;
+font-size: 17px;
+font-family: 'Kanit',sans-serif;
+
+
+
+}
+
+.cadastro-form  button:hover{
+
+transform: scale(1.1);
+background-color: #4fd82c;
+
+}
+
+.info-texto{
+
+font-size: 20px;
+
+
+
+}
+
+.botaoDeConfirmar{
+
+position: relative;
+left: 158px;
+width: 115px;
+height: 46px;
+font-size: 17px;
+font-family: 'Kanit',sans-serif;
+
+}
+
+.botaoDeConfirmar:hover{
+
+transform: scale(1.1);
+background-color: #4fd82c;
+
+
+}
+
+#nome,
+#email,
+#sorvete {
+   
+ font-family: 'Kanit', sans-serif;
+
+}
